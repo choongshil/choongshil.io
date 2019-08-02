@@ -1,0 +1,157 @@
+body {
+    font-size: small;
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    line-height: 15px;
+    position: static;
+    z-index: auto;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+#apps
+{
+    opacity: .65;
+    width: 25px;
+    height: 25px;
+    border-radius: 0px;
+    display: inline-block;
+    position: relative;
+    align-self: center;
+    background-position: -132px -38px;
+    vertical-align: middle;
+}
+#apps:hover
+{
+    opacity: .85;
+    width: 25px;
+    height: 25px;
+}
+
+#mexico {
+font-size: 15px;
+text-align: left;
+color: rgba(0, 0, 0, 54);
+line-height: 40px;
+visibility: visible;
+display: inline;
+z-index: auto;
+}
+
+#sign-in
+{
+    background: rgb(72, 133, 237);
+    color: white;
+    border: 0px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 7px 15px;
+
+}
+
+#sign-in:hover
+{
+    align-items: center;
+    color: #222;
+}
+
+footer
+{
+    color: rgb(63, 63, 63); 
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-left
+{
+    position: relative;
+    border-top: 1px solid gray;
+    padding-left: 20px;
+    color: #535353;
+    float: left;
+    text-align: left;
+}
+#footer-right
+{
+    border-top: 1px solid gray;
+    font-size: 13px;
+    color: #535353;
+    float: right;
+    text-align: right;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#logo, #search, #search-buttons {
+    text-align: center;
+}
+
+#logo {
+    margin-top: 150px;
+}
+
+#search-box {
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    border: 1px solid rgb(211, 211, 211);
+    height: 40px;
+    width: 575px;
+    
+}
+      
+#search-buttons {
+    margin-left: 6px;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+    padding: 10px 15px;
+    background-color: WhiteSmoke;
+    border: none;
+    border-radius: 4px;
+}
+
+.button
+{
+    border-radius: 2px;
+    width: 140px;
+    height: 40px;
+    background-color: #f1f1f1;
+    height: 36px;
+    line-height: 27px;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    margin: 11px 4px;
+    cursor: pointer;
+    font-family: arial,sans-serif;  
+}
+
+#top-elements {
+    text-align: right;
+    position: relative;
+    display: block;
+    padding-top: 1px;
+    padding-right: 30px;
+}
+
